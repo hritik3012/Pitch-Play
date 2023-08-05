@@ -1,0 +1,43 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 150px;
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  25px 25px 50px #a1a1a1,
+             -25px -25px 50px #ffffff;
+    
+    background-color: white;
+  }
+  
+  .card {
+    background-color: rgb(255, 203, 203);
+    padding: 20px;
+    color: rgb(0, 0, 164);
+    border-radius: 8px;
+    box-shadow: 1.5px 1.5px 5px 0px rgba(66, 0, 0, 0.75);
+    text-align: center;
+    margin: 10px;    
+  }
+  .card:hover{
+    background-color: rgb(255, 186, 186);
+    box-shadow: 10px -10px -5px 0px rgba(0,0,0,0.75);
+  }
+  .card:action{
+    background-color: rgb(255, 203, 203);
+    padding: 20px;
+    color: rgb(0, 0, 164);
+    border-radius: 8px;
+    box-shadow: 1.5px 1.5px 5px 0px rgba(66, 0, 0, 0.75);
+    text-align: center;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card-content {
+    margin-top: 10px;
+  }
